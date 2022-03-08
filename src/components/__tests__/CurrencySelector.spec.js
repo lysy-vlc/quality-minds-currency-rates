@@ -16,7 +16,7 @@ const currencies = [
   }
 ]
 
-describe('Input', () => {
+describe('CurrencySelector', () => {
   it('renders properly', async () => {
     const wrapper = mount(CurrencySelector, {
       props: {
